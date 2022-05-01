@@ -344,4 +344,145 @@ html{
       background-position: 0 0% 
     }
   }
+
+ 
   
+/* parte de yamil */
+
+/*configuaracion globales*/
+.main-card {
+    background-color: red;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-weight: 500;
+    
+    color: white;
+    background: #ffffff;
+    line-height: normal;
+}
+
+.cards-p{
+font-size:16px;
+font-family: 'Open Sans',
+sans-serif;
+}
+.card-principal{
+background-color: #2980b9;
+margin: 40px 0 0 ;
+padding: 15px 20px;
+}
+.card-text{
+color: white;
+}
+.card-holder{
+display: flex;
+align-items: center;
+margin: 0 auto;
+max-width: 1400px;
+gap: 3rem;
+
+}
+.card-holder .images{
+display: block;
+max-width: 100%;
+width: 650px;
+
+}
+.imag{
+width: 540px;
+margin: 10px 0;
+border: 1px solid #ccc;
+box-shadow: 5px 7px 0 #ccc;
+}
+.card-principal .imag{
+width: 440px;
+}
+
+
+
+.card-segundo p {
+color: black;
+font-size: 16px;
+font-family: 'Open Sans',
+  sans-serif;
+}
+.titulo{
+color: #c1392b;
+margin-top: 0;
+margin-bottom: 20px;
+font-weight: bold
+}
+
+.card-segundo{
+background-color: white;
+margin: 0 0 60px 0;
+padding: 40px 20px;
+border-bottom: 7px solid #ccc;
+}
+
+.card-box {
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+margin: 0 auto;
+max-width: 1500px;
+gap: 3rem;
+
+}
+
+.contenidoTwo .image {
+display: block;
+max-width: 100%;
+width: 650px;
+
+}
+
+.imag1 {
+width: 415px;
+margin: 10px 0;
+box-shadow: 3px 3px -1px #ccc;
+transform: rotate(-2deg);
+}
+.card-segundo .imag1 {
+width: 440px;
+}
+
+@media (max-width: 480px) {
+
+.imag {
+  width: 340px;
+
+}
+.card-principal .imag {
+  width: 280px;
+}
+.card-text {
+  display: flex;
+  
+  
+}
+.card-holder {
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+}
+@media(max-width:480px) {
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1500px;
+  gap: 3rem;
+
+}
+.card-segundo .imag1 {
+  width: 280px;
+}
+
+
+}
