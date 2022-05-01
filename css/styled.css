@@ -1,0 +1,106 @@
+.body{
+    margin-bottom: 2000px;
+}
+.header{
+    background-image: url(images/home-hero.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+}
+.header img{
+    width: 650px;
+    max-width: 98%;
+    vertical-align: middle;
+}
+.logo-ryzer{
+    width: 126px;
+    height: 41px;
+}
+.logo-ryzer img{
+    width: 100%;
+    height: auto;
+}
+.content-header{
+    max-width: 98%;
+    position: absolute;
+    bottom: 100px;
+}
+.content-header img{
+    width: 650px;
+    max-width: 98%;
+}
+.nav-link{
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    padding: 27px 10px 15px;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.navbar{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(0,0,0,0.75) 100%);
+    padding-top: 0;
+}
+.btn-coaches{
+    border-radius: 0;
+    border: 1px solid #fff;
+    transition: 0s;
+}
+.btn-coaches:hover{
+    background-color: rgba(255,255,255,0.2);
+    border-color: #fff;
+}
+.btn-sign{
+    border-radius: 0;
+    background-color: #2980b9; 
+    border: 1px solid #2980b9;   
+    transition: 0s;
+}
+.btn-sign:hover{
+    background-color: #216694;
+    border: 1px solid #216694;
+}
+.btn-login{
+    border: 0;
+    border-bottom: 1px solid transparent;
+    transition: 0s;
+}
+.btn-login:hover{
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+.btn{
+    margin-left: 15px;
+}
+.content-header p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 0.8em;
+    width: 750px
+}
+.content-header a{
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+    color: white;
+    padding: 10px 35px;
+    background-color: #c0392b;
+    box-shadow: 4px 7px #ccc;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.content-header a:hover{
+    background-color: #9C291D;
+}
+@media (max-width: 600px) {
+    .header{background-image: url(images/home-mobile.jpg);}
+}
