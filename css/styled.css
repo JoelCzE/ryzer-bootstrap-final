@@ -114,9 +114,32 @@ html {
 .content-header a:hover {
   background-color: #9c291d;
 }
+.navbar-nav .nav-link{
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  color: #777777;
+  padding: 10px 10px;
+}
+.fa-solid{
+  color: grey;
+  font-size: 16px;
+  margin: 0 0;
+}
 @media (max-width: 600px) {
   .header {
     background-image: url(images/home-mobile.jpg);
+  }
+  .form-inline{
+    display: none;
+  }
+}
+@media (min-width: 991px){
+  .nav-link{
+    display: none;
+  }
+  .navbar{
+    display: flex;
+    justify-content: flex-start;
   }
 }
 
