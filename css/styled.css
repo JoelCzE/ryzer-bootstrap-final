@@ -114,18 +114,14 @@ html {
 .content-header a:hover {
   background-color: #9c291d;
 }
-.navbar-nav .nav-link{
-  border-bottom: 1px solid #ccc;
-  font-size: 14px;
-  color: #777777;
-  padding: 10px 10px;
+.fa-solid{
+  display: none;
 }
 .fa-solid{
-  color: grey;
-  font-size: 16px;
-  margin: 0 0;
+  display: none;
 }
-@media (max-width: 600px) {
+
+@media (max-width: 600px){
   .header {
     background-image: url(images/home-mobile.jpg);
   }
@@ -133,15 +129,31 @@ html {
     display: none;
   }
 }
-@media (min-width: 991px){
   .nav-link{
+    background-color: white;
+  }
+  .fa-solid{
+    display: block;
+    color: grey;
+    font-size: 16px;
+    margin: 0 0;
+  }
+  .navbar-nav .nav-link{
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    color: #777777;
+    padding: 10px 10px;
+  }
+  .botones-header{
     display: none;
   }
-  .navbar{
-    display: flex;
-    justify-content: flex-start;
+  .fa-bars{
+    display: block;
+    font-size: 30px;
+    color: white;
   }
-}
+
+ 
 
 /* parte de leo */
 
