@@ -7,9 +7,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-.body {
-  margin-bottom: 2000px;
-}
+/* Parte de joel */
 .header {
   background-image: url(images/home-hero.jpg);
   background-repeat: no-repeat;
@@ -52,6 +50,7 @@ html {
   border-bottom: 1px solid #fff;
 }
 .navbar {
+  justify-content: normal;
   background: rgb(34, 193, 195);
   background: linear-gradient(
     0deg,
@@ -114,29 +113,36 @@ html {
 .content-header a:hover {
   background-color: #9c291d;
 }
-.fa-solid{
+.cont-botones-nav{
   display: none;
 }
-.fa-solid{
+.for-coach{
   display: none;
 }
-
-@media (max-width: 600px){
+.btn-login1{
+  display: none;
+}
+@media (max-width: 991px){
   .header {
     background-image: url(images/home-mobile.jpg);
   }
   .form-inline{
     display: none;
   }
-}
   .nav-link{
+    display: flex;
     background-color: white;
   }
-  .fa-solid{
+  .for-coach{
     display: block;
+  }
+  .cont-botones-nav{
+    display: block;
+  }
+  .botones-nav{
     color: grey;
     font-size: 16px;
-    margin: 0 0;
+    margin: 0 5px 0 0;
   }
   .navbar-nav .nav-link{
     border-bottom: 1px solid #ccc;
@@ -144,14 +150,33 @@ html {
     color: #777777;
     padding: 10px 10px;
   }
-  .botones-header{
-    display: none;
-  }
   .fa-bars{
     display: block;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
   }
+  .btn-login1{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 0;
+    background-color: #2980b9;
+    border: 1px solid #2980b9;
+    transition: 0s;
+    border-radius: 2px;
+  }
+  .btn-login1:hover {
+    background-color: #216694;
+    border: 1px solid #216694;
+  }
+  .cont-responsive{
+    display: flex;
+    align-items: center;
+  }
+  .navbar{
+    justify-content: space-between;
+  }
+}
 
  
 
